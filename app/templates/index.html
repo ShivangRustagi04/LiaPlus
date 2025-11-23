@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chatbot with Sentiment Analysis</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Chatbot with Sentiment Analysis</h1>
+    <div class="chat" id="chat"></div>
+    <div id="controls">
+      <textarea id="userInput" placeholder="Type your message here..."></textarea>
+      <div class="buttons">
+        <button id="sendBtn">Send</button>
+        <button id="finishBtn">Finish Conversation</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+    </div>
+    <div id="summary" class="summary" style="display:none;"></div>
+  </div>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
