@@ -104,6 +104,42 @@ compound → normalized overall score from -1 to 1
 - Frontend display of sentiment
 - Trend analysis (bonus enhancement)
 
+## File Structure
+
+```
+chatbot-sentiment/
+├── app/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── extensions.py
+│   ├── blueprints/
+│   │   ├── __init__.py
+│   │   └── chat.py
+│   ├── services/
+│   │   ├── __init__.py
+│   │   └── sentiment.py
+│   ├── templates/
+│   │   └── index.html
+│   └── static/
+│       ├── css/
+│       │   └── style.css
+│       └── js/
+│           └── app.js
+│
+├── tests/
+│   ├── conftest.py
+│   ├── test_sentiment.py
+│   └── test_chat_routes.py
+│
+├── .env.example
+├── requirements.txt
+├── Dockerfile
+├── gunicorn_conf.py
+├── wsgi.py
+└── README.md
+
+```
+
 ## Tests
 The project includes unit and integration tests using **pytest**.
 
