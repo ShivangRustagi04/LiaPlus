@@ -48,7 +48,7 @@ neg → ratio of negative sentiment
 
 compound → normalized overall score from -1 to 1
 ```
-## Clone or download project**
+## Clone or download project
     ```bash
     git clone https://github.com/ShivangRustagi04/LiaPlus.git
     ```
