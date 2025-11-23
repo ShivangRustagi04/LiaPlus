@@ -1,5 +1,53 @@
 # Chatbot with Sentiment Analysis
+```
+The chatbot uses NLTK VADER (Valence Aware Dictionary and sEntiment Reasoner) as its sentiment analysis engine.
+VADER is a rule-based, lexicon-driven sentiment analyzer specifically designed for short, informal, conversational text such as chats, social media posts, and real-time messages.
 
+⭐ Why VADER is suitable for chatbots
+
+Built for social and conversational language
+
+Understands slang, emojis, capitalization emphasis ("I LOVE this"), and punctuation ("!!!")
+
+Fast and lightweight → ideal for real-time analysis
+
+No model training needed
+
+🔬 How VADER Works
+
+VADER uses:
+
+A sentiment lexicon – a dictionary where each word has a pre-assigned emotional intensity score
+Example:
+
+“terrible” → -2.5
+
+“good” → +1.9
+
+“amazing” → +3.2
+
+Contextual rules, such as:
+
+Degree modifiers (e.g., "very", "extremely")
+
+Negation handling ("not happy")
+
+Punctuation emphasis ("good!!!")
+
+Capitalization ("AWESOME")
+
+Emojis / emoticons 🙂
+
+A polarity output, consisting of:
+
+pos → ratio of positive sentiment
+
+neu → ratio of neutral sentiment
+
+neg → ratio of negative sentiment
+
+compound → normalized overall score from -1 to 1
+```
 ## Clone or download project**
     ```bash
     git clone https://github.com/ShivangRustagi04/LiaPlus.git
